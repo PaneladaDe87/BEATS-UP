@@ -1,4 +1,3 @@
-# Controls when the action will run.
 name: Build
  on:
    push: 
