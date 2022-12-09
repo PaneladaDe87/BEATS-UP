@@ -1,9 +1,9 @@
 name: CI
 on:
  push: 
-   branches: [ "main" ]
+   branches: ["main"]
  pull_request: 
-   branches: [ "main" ]
+   branches: ["main"]
 
 workflow_dispatch: 
 
@@ -75,4 +75,4 @@ workflow_dispatch:
          uses: actions/upload-artifact@v2.2.4 
          with: 
            name: androidBuild 
-           path: export/release/android/bin/app/build/outputs/apk/debug
+           path: export/release/android/bin/app/build/outputs/apk/preAlpha
