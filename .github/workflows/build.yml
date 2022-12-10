@@ -8,7 +8,7 @@ on:
 workflow_dispatch: 
 
    buildAndroid: 
-     name: [ "buildAndroid" ]
+     name: preAlpha
      runs-on: ubuntu-latest 
      steps: 
        - name: Checkout 
