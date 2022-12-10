@@ -7,8 +7,8 @@ on:
 
 workflow_dispatch: 
 
-   buildAndroid: 
-     name: preAlpha
+   android: 
+     name: android
      runs-on: ubuntu-latest 
      steps: 
        - name: Checkout 
@@ -74,5 +74,5 @@ workflow_dispatch:
        - name: Publish Artifact 
          uses: actions/upload-artifact@v2.2.4 
          with: 
-           name: preAlpha
-           path: export/release/android/bin/app/build/outputs/apk/preAlpha
+           name: android
+           path: export/release/android/bin/app/build/outputs/apk/android
