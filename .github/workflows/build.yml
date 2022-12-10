@@ -9,7 +9,7 @@ workflow_dispatch:
 
    android: 
      name: buildAndroid
-     runsOn: ubuntu-latest 
+     runs-on: ubuntuLatest 
      steps: 
        - name: Checkout 
          uses: actions/checkout@v2.3.1 
